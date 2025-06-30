@@ -5,7 +5,7 @@ import seaborn as sns
 import plotly.express as px
 
 # Load the dataset
-df = pd.read_csv("Healthy_meals_plan.csv")
+df = pd.read_csv("healthy_meals_plan.csv")
 
 # Sidebar filters
 st.sidebar.title("Filters")
